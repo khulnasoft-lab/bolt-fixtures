@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        go-version: [ '1.16.x', '1.17.x', '1.18.x' ] # Update to versions that support arm64
+        go-version: [ '1.17.x', '1.18.x', '1.19.x' ] # Use versions that support the required features
 
     steps:
     - uses: actions/checkout@v2
